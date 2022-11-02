@@ -1,10 +1,12 @@
 body {
-  background-color: rgb(52, 220, 164);
-  font-family: sans-serif;
-  color: green;
-  font-size: 100;
-  line-height: 2;
+  background-image: url('Outer_wall.gif');
+  background-size: cover;
+
+  height: 100vh;
+  padding:0;
+  margin:0;
 }
+
 
 head {
   color: violet;
@@ -15,18 +17,5 @@ head {
 
 a {
   color:bisque;
-  text-decoration: dashed;
-}
-
-@media (max-width: 960px){
-.container {
-  border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
-  }
-}
-
-.card {
-  background-color: navy;
-  margin: auto;
+  text-decoration: overline;
 }
