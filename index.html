@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
-      <body>
-        <h1>
-          Hello, I'm Percy Goop!
-        </h1>
-        <img src='Outer_wall.gif' alt="Picture">
-          <h2>
-            I love to code, sail, and hang out with my close friends.
-          </h2>
-          <a href="https://store.steampowered.com/app/678950/DRAGON_BALL_FighterZ/">Discover being epic!</a>
-          <h3>
-            Follow me
-          </h3>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=DDL3-xC-Aro&list=RDb8hbnFqe8aw&index=2&ab_channel=CaitlinMyers" target="_blank">
-                <i class="fa-thin fa-mug-hot"></i>
-              </a>
-            </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=2empPjfN8yA&ab_channel=phonebooksan" target="_blank">
-                  <i class="fa-solid fa-dungeon"></i>
-                </a>
-              </li>
-                <li>
-                  <a href="https://www.youtube.com/watch?v=O9pLvcXUpz4&ab_channel=GameChops" target="_blank">
-                    <i class="fa-solid fa-hand-fist"></i>
-                  </a>
-                </li>
+  <body>
+    <div class="moon">
+      <img src="percy_profile.png">
+    </div>
 
-          </ul>
-      </body>
+    <div class="button">
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+      <input class="button" value="" onclick="play()">
+      <audio id="audio" src="song.mp3"></audio>
+    </div>
+
+    <div class = "quote">
+      <img src="TextBox.png" width="800" height="200">
+    </div>
+
+    <div class = "last">
+      <h1>Quotes directed<br><br>
+          towards Percy</h1>
+    </div>
+
+
+    <div class="content-two">
+      <marquee scrolldelay="100" scrollamount="30" direction="left"> Dance with me in the sweet memories.</marquee>
+    </div>
+
+    <div class="content-three">
+       <marquee scrolldelay="70" scrollamount="40" direction="left"> Lord, give me one more chance!</marquee>
+    </div>
+
+    <div class="content-four">
+      <marquee scrolldelay="20" scrollamount="10" direction="left"> You're within my sword's range.</marquee>
+    </div>
+
+    <div class="content-five">
+      <marquee scrolldelay="10" scrollamount="25" direction="left"> Who do you think is gonna yell at you?.</marquee>
+    </div>
+
+    <div class="content-six">
+      <marquee scrolldelay="30" scrollamount="35" direction="left"> Yup, our engine is definitley on fire.</marquee>
+    </div>
+
+    <div class="content-seven">
+     <marquee scrolldelay="40" scrollamount="15" direction="left"> Pendragon? That's a crackin' name!</marquee>
+    </div>
+
+  </body>
 </html>
